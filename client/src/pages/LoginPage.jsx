@@ -42,8 +42,8 @@ const Login = () => {
                 <input type="text" placeholder="UserId" className="p-3 border rounded-lg" id="userId" onChange={handleChange} />
                 <input type="text" placeholder="Password" className="p-3 border rounded-lg" id="password" onChange={handleChange}  />
                 <div className="flex items-center justify-between">
-                    <button className="p-3 bg-sky-500 rounded-lg text-white">Cancel</button>
-                    <button className="p-3 bg-sky-500 rounded-lg text-white">Login</button>
+                    
+                    <button className=" hover:shadow-md w-full  font-bold uppercase p-3 bg-sky-500 rounded-lg text-white">Login</button>
                 </div>
             </form>
             <div>

@@ -41,8 +41,8 @@ const Register = () => {
                 <input type="text" placeholder="UserId" className="p-3 border rounded-lg" id="userId" onChange={handleChange} />
                 <input type="text" placeholder="Password" className="p-3 border rounded-lg" id="password" onChange={handleChange}  />
                 <div className="flex items-center justify-between">
-                    <button className="p-3 bg-sky-500 rounded-lg text-white">Cancel</button>
-                    <button className="p-3 bg-sky-500 rounded-lg text-white">Register</button>
+                    
+                    <button className=" w-full p-3 bg-sky-500 rounded-lg text-white">Register</button>
                 </div>
             </form>
             <div>
